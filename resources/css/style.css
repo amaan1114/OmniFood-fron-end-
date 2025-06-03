@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    background: #ffffffff;
+    color: #555;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("img/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: white;
+    font-size: 240%;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+
+ 
+.nav-link:focus,
+.nav-link:hover,
+.nav-link:active,
+.nav-link:visited,
+.nav-link:focus-visible {
+  color: white !important;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 200px;
+    transition: 0.2s;
+
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+   
+}
+.btn-ghost:visited,
+.btn-ghost:link
+{
+    border:1px solid orange;
+    color: orange;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    color: white;
+
+}
+
+.logo{
+    height: 3rem;
+    float: left;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.629);
+}
+.nav-link:hover{
+    color: white;
+    text-align: end;
+}
+
+
+.linksbar{
+    text-align: right;
+    
+}
+p{
+    color: white;
+}
+
+@media  screen and (max-width:426px) {
+    .logo{
+    height: 1rem;
+    float: left;
+    }
+}
+
+@media  screen and (max-width:426px) {
+    p{
+        font-size: 1rem;
+    
+    }
+   
+
+}
+
+
+    
+.navbar-toggler-icon {
+  
+  background-image: url("img/hamburger.jpg");
+}
+
+.price{
+    color: black;
+}
+.cardimage{
+    width: 20%;
+}
+.planbtn{
+    width: 10rem;
+}
+.planbtn:hover{
+    background-color: blue;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #cf6d17;
+    color: white;
+}
+
+.btn3:hover{
+    background-color: red;
+    color: white;
+}
+
+.bigtitle{
+    color: red;
+}
