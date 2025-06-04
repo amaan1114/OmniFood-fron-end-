@@ -133,7 +133,7 @@ p{
 }
 
 
-@media  screen and (max-width:769px) {
+@media  screen and (max-width:769px) and (min-width:426) {
     p{
         font-size: 0.8rem;
     
@@ -165,6 +165,12 @@ p{
     background-color: blue;
     color: white;
 }
+.submitbut:hover{
+    background-color: white;
+    color: black;
+}
+
+
 
 .btn2:hover{
     background-color: #cf6d17;
@@ -178,4 +184,20 @@ p{
 
 .bigtitle{
     color: red;
+}
+input
+{
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 0.8rem;
+    width: 90%;
+    height: 20%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
