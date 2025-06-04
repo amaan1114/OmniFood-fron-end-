@@ -1,3 +1,3 @@
 $('.planbtn').click(function(){
-    alert("It is a demo site.")
+    alert("It is a dummy site.")
 })

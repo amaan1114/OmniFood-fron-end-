@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,body{
+    overflow-x: hidden;
+}
 html
 {
     background: #ffffffff;
@@ -37,6 +41,8 @@ h1{
     letter-spacing: 1px;
     word-spacing: 3px;
 }
+
+nav-colap
 
 
  
@@ -86,7 +92,7 @@ h1{
 }
 
 .logo{
-    height: 3rem;
+    height: 1rem;
     float: left;
 }
 .nav-link{
@@ -100,6 +106,7 @@ h1{
 
 .linksbar{
     text-align: right;
+    
     
 }
 p{
@@ -115,8 +122,24 @@ p{
 
 @media  screen and (max-width:426px) {
     p{
-       font-size: 0.5rem;
+        font-size: 0.5rem;
     
+    }
+    a{
+        font-size: 0.7rem;
+    }
+   
+
+}
+
+
+@media  screen and (max-width:769px) {
+    p{
+        font-size: 0.8rem;
+    
+    }
+    a{
+        font-size: 0.7rem;
     }
    
 
