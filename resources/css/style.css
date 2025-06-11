@@ -110,6 +110,7 @@ nav-colap
     
 }
 p{
+    font-size: 0.8rem;
     color: white;
 }
 
@@ -200,4 +201,20 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.link
+{
+    
+    text-decoration: none;
+    text-decoration-color: white;
+    transition: 0.5s;
+
+}
+
+.link:hover{
+    text-decoration: underline;
+    text-decoration-color:black;
+    
+    
 }
