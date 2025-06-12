@@ -121,7 +121,7 @@ p{
     }
 }
 
-@media  screen and (max-width:426px) {
+@media  screen and (max-width:426px){
     p{
         font-size: 0.5rem;
     
@@ -132,19 +132,37 @@ p{
    
 
 }
+.planbtn{
+    width: 10rem;
+}
 
-
-@media  screen and (max-width:769px) and (min-width:426) {
+@media  screen and (max-width:769px) and (min-width:426px){
     p{
         font-size: 0.8rem;
     
     }
+    
     a{
         font-size: 0.7rem;
+    }
+    .planbtn{
+        
+        width: 98%;
+    }
+    .btn2{
+        margin-top: 15%;
+    }
+    .btn1{
+        margin-top: 44%;
     }
    
 
 }
+.subbtn{
+    width: 10rem;
+}
+
+
 
 
     
@@ -159,9 +177,7 @@ p{
 .cardimage{
     width: 20%;
 }
-.planbtn{
-    width: 10rem;
-}
+
 .planbtn:hover{
     background-color: blue;
     color: white;
